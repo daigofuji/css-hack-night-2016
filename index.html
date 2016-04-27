@@ -16,6 +16,11 @@
         font-family: 'Audiowide', cursive;
         font-size: 8vh;
       }
+      a {
+        color: #cfb488;
+        text-decoration: none;
+        text-shadow: 0px 3px 0px #000;
+      }
       .title,
       .verse,
       .chorus,
@@ -31,11 +36,13 @@
         background-position: center;
       }
       .title {
+        padding: 3vh;
         background-image: url("http://fblog.futurebrand.com/wp-content/uploads/2016/01/david_bowie_legend_heroes_ziggy_stardust_hd-wallpaper-1639383.jpg");
         background-attachment: fixed;
         text-align: center;
       }
       .title h1 {
+        font-size: 12vw;
         text-shadow: 0px 3px 0px #b2a98f,
              0px 14px 10px rgba(0,0,0,0.15),
              0px 24px 2px rgba(0,0,0,0.1),
@@ -44,18 +51,22 @@
       .verse-1 {
         background-image: url("http://1.bp.blogspot.com/-OqWRxwKjOxA/UdnD3uKP-FI/AAAAAAAAYAY/_wwuqkflwJg/s1600/Space-Suit-Astronaut-Helmet-Reflection.jpg");
       }
-
+      @media (min-width: 790px) {
+        .duets {
+          display: flex;
+        }
+      }
       .duets {
-        display: flex;
         background-image: url("http://www.nasa.gov/images/content/618285main_CCPLAS-MLAS.jpg");
         background-attachment: fixed;
         background-size: contain;
       }
       .count-down {
-        width: 50vw;
-        padding: 10vh;
+        text-align: center;
+        padding: 5vh;
         background-color: rgba(255,255,255,0.5);
       }
+
       .chorus-1, .fin {
         background-image: url("http://mmoboom.ru/uploads/editor/images/user_17897/4890/22917_3d_space_scene_astronaut_chilling_on_the_moon_with_beer.jpg");
       }
@@ -179,7 +190,7 @@
 
     <div class="fin">
       <h1 class="end">fin</h1>
-      <p class="footerinfo"><a href=""></a>CSS HACK NIGHT as part of CASCADE BOS, April 26, 2016. </p>
+      <p class="footerinfo">As part of <a href="http://www.meetup.com/cascadebos/events/228752845/">CSS HACK NIGHT</a> CASCADE BOS, April 26, 2016. </p>
     </div>
   </body>
 </html>
