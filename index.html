@@ -57,10 +57,14 @@
         background-color: rgba(255,255,255,0.5);
       }
       .chorus-1, .fin {
-        background-image: url("http://entropymag.org/wp-content/uploads/2014/10/outer-space-wallpaper-pictures.jpg");
+        background-image: url("http://mmoboom.ru/uploads/editor/images/user_17897/4890/22917_3d_space_scene_astronaut_chilling_on_the_moon_with_beer.jpg");
       }
       .chorus-2 {
-        background-image: url("http://mmoboom.ru/uploads/editor/images/user_17897/4890/22917_3d_space_scene_astronaut_chilling_on_the_moon_with_beer.jpg");
+        background-image: url("https://le0pard13.files.wordpress.com/2015/08/falcon.gif"), url("http://entropymag.org/wp-content/uploads/2014/10/outer-space-wallpaper-pictures.jpg");
+        background-attachment: fixed, scroll;
+        background-position: bottom right, center;
+        background-size: 20%, cover;
+        background-repeat: no-repeat, no-repeat;
       }
 
       .bridge-2, .bridge-1 {
@@ -78,6 +82,9 @@
       @keyframes animatedBackground {
         from { background-position: 0 0; }
         to { background-position: 100% 0; }
+      }
+      .fin {
+        text-align: center;
       }
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
